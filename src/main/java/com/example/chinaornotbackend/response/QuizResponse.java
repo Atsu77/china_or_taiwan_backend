@@ -11,11 +11,14 @@ public class QuizResponse {
   private String answer;
   @JsonProperty("image_url")
   private String imageUrl;
+  @JsonProperty("correct_rate")
+  private int correctRate;
 
-  public QuizResponse(Long id, String question, String answer, String imageUrl) {
+  public QuizResponse(Long id, String question, String answer, String imageUrl, int correctRate) {
     this.id = id;
     this.question = question;
     this.answer = answer;
     this.imageUrl = imageUrl;
+    this.correctRate = correctRate;
   }
 }

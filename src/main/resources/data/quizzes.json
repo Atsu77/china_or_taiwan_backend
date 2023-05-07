@@ -6,7 +6,8 @@
             "id": 1,
             "answer": "台湾"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_01.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_01.jpg",
+        "correct_rate": 10
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
             "id": 1,
             "answer": "台湾"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_02.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_02.jpg",
+        "correct_rate": 30
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
             "id": 1,
             "answer": "台湾"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_03.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_03.jpg",
+        "correct_rate": 20
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
             "id": 1,
             "answer": "台湾"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_04.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_04.jpg",
+        "correct_rate": 50
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@
             "id": 2,
             "answer": "中国"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_05.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_05.jpg",
+        "correct_rate": 40
     },
     {
         "id": 6,
@@ -51,7 +56,8 @@
             "id": 2,
             "answer": "中国"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_06.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_06.jpg",
+        "correct_rate": 30
     },
     {
         "id": 7,
@@ -60,7 +66,8 @@
             "id": 2,
             "answer": "中国"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_07.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_07.jpg",
+        "correct_rate": 90
     },
     {
         "id": 8,
@@ -69,7 +76,8 @@
             "id": 2,
             "answer": "中国"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_08.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_08.jpg",
+        "correct_rate": 60
     },
     {
         "id": 9,
@@ -78,7 +86,8 @@
             "id": 2,
             "answer": "中国"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_09.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_09.jpg",
+        "correct_rate": 40
     },
     {
         "id": 10,
@@ -87,7 +96,8 @@
             "id": 1,
             "answer": "台湾"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_10.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_10.jpg",
+        "correct_rate": 20
     },
     {
         "id": 11,
@@ -96,7 +106,8 @@
             "id": 1,
             "answer": "台湾"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_11.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_11.jpg",
+        "correct_rate": 60
     },
     {
         "id": 12,
@@ -105,7 +116,8 @@
             "id": 2,
             "answer": "中国"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_12.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_12.jpg",
+        "correct_rate": 20
     },
     {
         "id": 13,
@@ -114,7 +126,8 @@
             "id": 2,
             "answer": "中国"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_13.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_13.jpg",
+        "correct_rate": 70
     },
     {
         "id": 14,
@@ -123,7 +136,8 @@
             "id": 1,
             "answer": "台湾"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_14.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_14.jpg",
+        "correct_rate": 70
     },
     {
         "id": 15,
@@ -132,7 +146,8 @@
             "id": 1,
             "answer": "台湾"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_15.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_15.jpg",
+        "correct_rate": 70
     },
     {
         "id": 16,
@@ -141,7 +156,8 @@
             "id": 2,
             "answer": "中国"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_16.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_16.jpg",
+        "correct_rate": 50
     },
     {
         "id": 17,
@@ -150,7 +166,8 @@
             "id": 2,
             "answer": "中国"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_17.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_17.jpg",
+        "correct_rate": 20
     },
     {
         "id": 18,
@@ -159,7 +176,8 @@
             "id": 2,
             "answer": "中国"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_18.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_18.jpg",
+        "correct_rate": 10
     },
     {
         "id": 19,
@@ -168,7 +186,8 @@
             "id": 2,
             "answer": "中国"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_19.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_19.jpg",
+        "correct_rate": 60
     },
     {
         "id": 20,
@@ -177,7 +196,8 @@
             "id": 1,
             "answer": "台湾"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_20.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_20.jpg",
+        "correct_rate": 30
     },
     {
         "id": 21,
@@ -186,7 +206,8 @@
             "id": 1,
             "answer": "台湾"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_21.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_21.jpg",
+        "correct_rate": 80
     },
     {
         "id": 22,
@@ -195,7 +216,8 @@
             "id": 1,
             "answer": "台湾"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_22.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_22.jpg",
+        "correct_rate": 90
     },
     {
         "id": 23,
@@ -204,7 +226,8 @@
             "id": 1,
             "answer": "台湾"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_23.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_23.jpg",
+        "correct_rate": 70
     },
     {
         "id": 24,
@@ -213,7 +236,8 @@
             "id": 1,
             "answer": "台湾"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_24.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_24.jpg",
+        "correct_rate": 80
     },
     {
         "id": 25,
@@ -222,7 +246,8 @@
             "id": 1,
             "answer": "台湾"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_25.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_25.jpg",
+        "correct_rate": 70
     },
     {
         "id": 26,
@@ -231,7 +256,8 @@
             "id": 2,
             "answer": "中国"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_26.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_26.jpg",
+        "correct_rate": 80
     },
     {
         "id": 27,
@@ -240,7 +266,8 @@
             "id": 2,
             "answer": "中国"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_27.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_27.jpg",
+        "correct_rate": 10
     },
     {
         "id": 28,
@@ -249,7 +276,8 @@
             "id": 2,
             "answer": "中国"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_28.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_28.jpg",
+        "correct_rate": 60
     },
     {
         "id": 29,
@@ -258,7 +286,8 @@
             "id": 2,
             "answer": "中国"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_29.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_29.jpg",
+        "correct_rate": 0
     },
     {
         "id": 30,
@@ -267,7 +296,8 @@
             "id": 2,
             "answer": "中国"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_30.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_30.jpg",
+        "correct_rate": 60
     },
     {
         "id": 31,
@@ -276,7 +306,8 @@
             "id": 2,
             "answer": "中国"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_31.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_31.jpg",
+        "correct_rate": 10
     },
     {
         "id": 32,
@@ -285,7 +316,8 @@
             "id": 2,
             "answer": "中国"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_32.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_32.jpg",
+        "correct_rate": 60
     },
     {
         "id": 33,
@@ -294,7 +326,8 @@
             "id": 2,
             "answer": "中国"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_33.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_33.jpg",
+        "correct_rate": 100
     },
     {
         "id": 34,
@@ -303,7 +336,8 @@
             "id": 2,
             "answer": "中国"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_34.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_34.jpg",
+        "correct_rate": 100
     },
     {
         "id": 35,
@@ -312,7 +346,8 @@
             "id": 1,
             "answer": "台湾"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_35.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_35.jpg",
+        "correct_rate": 0
     },
     {
         "id": 36,
@@ -321,7 +356,8 @@
             "id": 1,
             "answer": "台湾"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_36.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_36.jpg",
+        "correct_rate": 0
     },
     {
         "id": 37,
@@ -330,7 +366,8 @@
             "id": 1,
             "answer": "台湾"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_37.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_37.jpg",
+        "correct_rate": 20
     },
     {
         "id": 38,
@@ -339,7 +376,8 @@
             "id": 1,
             "answer": "台湾"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_38.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_38.jpg",
+        "correct_rate": 10
     },
     {
         "id": 39,
@@ -348,7 +386,8 @@
             "id": 1,
             "answer": "台湾"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_39.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_39.jpg",
+        "correct_rate": 100
     },
     {
         "id": 40,
@@ -357,6 +396,7 @@
             "id": 1,
             "answer": "台湾"
         },
-        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_40.jpg"
+        "image_url": "https://bucket1682292892032.s3.amazonaws.com/question_40.jpg",
+        "correct_rate": 50
     }
 ]

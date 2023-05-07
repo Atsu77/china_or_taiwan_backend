@@ -1,4 +1,0 @@
-CREATE TABLE IF NOT EXISTS difficulties (
-  id SERIAL PRIMARY KEY,
-  difficulty VARCHAR(255) NOT NULL
-);

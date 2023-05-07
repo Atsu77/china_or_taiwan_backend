@@ -30,8 +30,8 @@ public class QuizController {
   private AnswerRepository answerRepository;
 
   @GetMapping
-  public ResponseEntity<List<QuizResponse>> getQuizzes(@RequestParam(defaultValue = "10") int limit) {
-    List<QuizResponse> quizzes = quizService.getQuizzes(limit);
+  public ResponseEntity<List<QuizResponse>> getQuizzes(@RequestParam(defaultValue = "10") int limit, @RequestParam(defaultValue = "MEDIUM") Difficulty difficulty) {
+    List<QuizResponse> quizzes = quizService.getQuizzes(limit, difficulty);
     return new ResponseEntity<>(quizzes, HttpStatus.OK);
   }
 

@@ -39,13 +39,10 @@ public class ScoreController {
   @PostMapping
   public ResponseEntity<Long> createScore(@RequestBody ScoreRequest scoreRequest) {
     User user = userService.findOrCreateUser(scoreRequest.getUserName());
-
     List<QuizResultRequest> quizResults = scoreRequest.getQuizResults();
     quizResultService.processQuizResults(quizResults);
-
     int totalScore = (int) quizResults.stream().filter(result -> result.isCorrect()).count();
     Long scoreId = scoreService.createScore(user, totalScore);
-
     quizResults.forEach(result -> {
       quizResultService.updateCorrectRate(result.getQuizId());
     });

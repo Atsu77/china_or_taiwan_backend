@@ -1,12 +1,15 @@
 package com.example.chinaornotbackend.service;
 
-import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestBody;
 
+import com.example.chinaornotbackend.controller.Difficulty;
 import com.example.chinaornotbackend.model.Quiz;
 import com.example.chinaornotbackend.model.QuizResult;
 import com.example.chinaornotbackend.model.repository.QuizRepository;
@@ -21,19 +24,30 @@ public class QuizService {
   @Autowired
   private QuizResultRepository quizResultRepository;
 
-  public List<QuizResponse> getQuizzes(int limit) {
-    List<Quiz> quizzes = quizRepository.findAllWithAnswers(limit);
+  public List<QuizResponse> getQuizzes(int limit, Difficulty difficulty) {
+    List<Quiz> quizzes = quizRepository.findAll(Sort.by(Sort.Direction.ASC, "correctRate"));
 
-    List<QuizResponse> quizResponses = new ArrayList<>();
+    int halfIndex = quizzes.size() / 2;
+    List<Quiz> filteredQuizzes;
 
-    if (quizzes.isEmpty())
-      return quizResponses;
-
-    for (Quiz quiz : quizzes) {
-      QuizResponse quizResponse = new QuizResponse(quiz.getId(), quiz.getQuestion(), quiz.getAnswer().getAnswer(),
-          quiz.getImageUrl());
-      quizResponses.add(quizResponse);
+    if (difficulty == Difficulty.MEDIUM) {
+      // 正答率の降順に50%を取得
+      filteredQuizzes = quizzes.subList(halfIndex, quizzes.size());
+    } else {
+      // 正答率の昇順に50%を取得
+      filteredQuizzes = quizzes.subList(0, halfIndex);
     }
+
+    // 上位50%からランダムにlimit件取得
+    Collections.shuffle(filteredQuizzes);
+    List<Quiz> selectedQuizzes = filteredQuizzes.stream().limit(limit).collect(Collectors.toList());
+
+    // QuizResponseのリストに変換
+    List<QuizResponse> quizResponses = selectedQuizzes.stream()
+        .map(quiz -> new QuizResponse(quiz.getId(), quiz.getQuestion(), quiz.getAnswer().getAnswer(),
+            quiz.getImageUrl(), quiz.getCorrectRate()))
+        .collect(Collectors.toList());
+
     return quizResponses;
   }
 
@@ -44,8 +58,7 @@ public class QuizService {
     newQuiz.setAnswer(quiz.getAnswer());
     Quiz savedQuiz = quizRepository.save(newQuiz);
     QuizResponse quizResponse = new QuizResponse(savedQuiz.getId(), savedQuiz.getQuestion(),
-        savedQuiz.getAnswer().getAnswer(), savedQuiz.getImageUrl());
-
+        savedQuiz.getAnswer().getAnswer(), savedQuiz.getImageUrl(), savedQuiz.getCorrectRate());
     return quizResponse;
   }
 
