@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.chinaornotbackend.model.Quiz;
-import com.example.chinaornotbackend.repository.AnswerRepository;
+import com.example.chinaornotbackend.model.repository.AnswerRepository;
 import com.example.chinaornotbackend.response.QuizResponse;
 import com.example.chinaornotbackend.service.QuizService;
 import com.fasterxml.jackson.annotation.JsonProperty;

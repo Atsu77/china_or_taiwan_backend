@@ -12,11 +12,11 @@ import com.example.chinaornotbackend.model.Quiz;
 import com.example.chinaornotbackend.model.Score;
 import com.example.chinaornotbackend.model.QuizCategory;
 import com.example.chinaornotbackend.model.User;
-import com.example.chinaornotbackend.repository.AnswerRepository;
-import com.example.chinaornotbackend.repository.QuizCategoryRepository;
-import com.example.chinaornotbackend.repository.QuizRepository;
-import com.example.chinaornotbackend.repository.ScoreRepository;
-import com.example.chinaornotbackend.repository.UserRepository;
+import com.example.chinaornotbackend.model.repository.AnswerRepository;
+import com.example.chinaornotbackend.model.repository.QuizCategoryRepository;
+import com.example.chinaornotbackend.model.repository.QuizRepository;
+import com.example.chinaornotbackend.model.repository.ScoreRepository;
+import com.example.chinaornotbackend.model.repository.UserRepository;
 import com.example.chinaornotbackend.util.JsonFileReader;
 import com.fasterxml.jackson.core.type.TypeReference;
 

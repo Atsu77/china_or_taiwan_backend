@@ -1,4 +1,4 @@
-package com.example.chinaornotbackend.repository;
+package com.example.chinaornotbackend.model.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

@@ -1,6 +1,4 @@
-package com.example.chinaornotbackend.repository;
-
-
+package com.example.chinaornotbackend.model.repository;
 
 import java.util.Optional;
 
